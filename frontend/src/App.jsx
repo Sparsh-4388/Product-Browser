@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 
-const API_BASE = 'https://codevector-backend.onrender.com/api/products'
+const API_BASE = 'https://product-browser-1p1u.onrender.com/'
 const CATEGORIES = ['Electronics', 'Books', 'Fashion', 'Sports', 'Gaming']
 const PAGE_SIZE = 20
 
