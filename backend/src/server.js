@@ -9,6 +9,7 @@ connectDB();
 
 const app = express();
 
+/*This backend CORS logic is made using AI*/
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || /\.vercel\.app$/.test(new URL(origin).hostname)) {
