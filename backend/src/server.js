@@ -8,7 +8,7 @@ const productRoutes = require("./routes/productRoutes");
 connectDB();
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: "https://product-browser-ten.vercel.app/"}));
 app.use(express.json());
 
 app.get("/", (req, res) => {
